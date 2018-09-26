@@ -27,7 +27,6 @@ execute as @e[type=minecraft:armor_stand,tag=MobSpawner] at @s unless block ~ ~ 
 execute as @e[type=minecraft:item,nbt={OnGround:1b,Item:{id:"minecraft:emerald"}}] at @s if block ~ ~ ~ minecraft:cauldron run function soulshard:give_shard/check_shard
 execute as @e[type=minecraft:item,nbt={OnGround:1b,Item:{id:"minecraft:golden_sword"}}] at @s if block ~ ~ ~ minecraft:cauldron run function soulshard:give_sword/check_sword
 
-execute as @a[nbt={SelectedItem:{id:"minecraft:golden_sword",tag:{soulstealer:1b,notmodified:1b}}}] run function soulshard:give_sword/modify_sword
 execute as @e[type=minecraft:armor_stand,tag=Spawner,tag=!MobSpawner] at @s if entity @e[limit=1,type=minecraft:item,distance=..2,tag=!exit_spawner,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{mobshard:1b,spawnerok:1b}}}] run function soulshard:spawner/store
 
 execute as @e[type=minecraft:armor_stand,tag=MobSpawner,tag=redstone] at @s run function soulshard:spawner/powered
