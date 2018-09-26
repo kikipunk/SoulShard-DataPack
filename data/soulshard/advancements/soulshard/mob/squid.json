@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/squid"},
+    "criteria": {
+        "squid": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "squid"
+                }
+            }
+        }
+    }
+}

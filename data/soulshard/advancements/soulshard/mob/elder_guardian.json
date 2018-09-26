@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/elder_guardian"},
+    "criteria": {
+        "elder_guardian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "elder_guardian"
+                }
+            }
+        }
+    }
+}

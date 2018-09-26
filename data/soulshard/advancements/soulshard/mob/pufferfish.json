@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/pufferfish"},
+    "criteria": {
+        "pufferfish": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "pufferfish"
+                }
+            }
+        }
+    }
+}

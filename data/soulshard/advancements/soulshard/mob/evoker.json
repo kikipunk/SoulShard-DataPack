@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/evoker"},
+    "criteria": {
+        "evoker": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "evoker"
+                }
+            }
+        }
+    }
+}

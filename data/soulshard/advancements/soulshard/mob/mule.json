@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/mule"},
+    "criteria": {
+        "mule": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "mule"
+                }
+            }
+        }
+    }
+}

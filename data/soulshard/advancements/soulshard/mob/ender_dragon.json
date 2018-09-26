@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/ender_dragon"},
+    "criteria": {
+        "ender_dragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "ender_dragon"
+                }
+            }
+        }
+    }
+}

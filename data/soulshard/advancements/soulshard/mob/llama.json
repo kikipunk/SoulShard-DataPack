@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/llama"},
+    "criteria": {
+        "llama": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "llama"
+                }
+            }
+        }
+    }
+}

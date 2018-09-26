@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:daylight_detector",
+    "minecraft:redstone_wire",
+	"minecraft:light_weighted_pressure_plate",
+	"minecraft:heavy_weighted_pressure_plate",
+	"minecraft:lever",
+    "#minecraft:buttons",
+    "minecraft:repeater",
+    "minecraft:comparator",
+	"minecraft:detector_rail",
+	"#minecraft:wooden_pressure_plates",
+	"minecraft:tripwire_hook",
+	"minecraft:stone_pressure_plate",
+	"minecraft:observer",
+	"minecraft:redstone_block",
+	"minecraft:redstone_torch"
+  ]
+}

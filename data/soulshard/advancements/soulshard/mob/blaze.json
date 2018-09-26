@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/blaze"},
+    "criteria": {
+        "blaze": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "blaze"
+                }
+            }
+        }
+    }
+}

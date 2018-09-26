@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/turtle"},
+    "criteria": {
+        "turtle": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "turtle"
+                }
+            }
+        }
+    }
+}

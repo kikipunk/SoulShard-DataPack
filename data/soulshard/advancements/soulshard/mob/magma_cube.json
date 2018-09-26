@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/magma_cube"},
+    "criteria": {
+        "magma_cube": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "magma_cube"
+                }
+            }
+        }
+    }
+}

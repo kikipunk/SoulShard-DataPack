@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/zombie_horse"},
+    "criteria": {
+        "zombie_horse": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_horse"
+                }
+            }
+        }
+    }
+}

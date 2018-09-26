@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/shulker"},
+    "criteria": {
+        "shulker": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "shulker"
+                }
+            }
+        }
+    }
+}

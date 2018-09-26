@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/tropical_fish"},
+    "criteria": {
+        "tropical_fish": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "tropical_fish"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+	"rewards": {"function":"soulshard:place_spawner/place_spawner"},
+    "criteria": {
+        "place_spawner": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:spawner"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "place_spawner"
+        ]
+    ]
+}

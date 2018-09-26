@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/bat"},
+    "criteria": {
+        "bat": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "bat"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/silverfish"},
+    "criteria": {
+        "silverfish": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "silverfish"
+                }
+            }
+        }
+    }
+}

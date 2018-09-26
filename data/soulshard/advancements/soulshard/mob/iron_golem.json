@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/iron_golem"},
+    "criteria": {
+        "iron_golem": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "iron_golem"
+                }
+            }
+        }
+    }
+}

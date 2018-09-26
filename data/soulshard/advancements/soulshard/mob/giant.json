@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/giant"},
+    "criteria": {
+        "guardian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "giant"
+                }
+            }
+        }
+    }
+}

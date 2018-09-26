@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/polar_bear"},
+    "criteria": {
+        "polar_bear": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "polar_bear"
+                }
+            }
+        }
+    }
+}

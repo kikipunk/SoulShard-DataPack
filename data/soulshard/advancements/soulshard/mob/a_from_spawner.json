@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "from_spawner": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"from_spawner\"]}"
+                }
+            }
+        }
+    }
+}

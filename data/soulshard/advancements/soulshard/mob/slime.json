@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/slime"},
+    "criteria": {
+        "slime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "slime"
+                }
+            }
+        }
+    }
+}

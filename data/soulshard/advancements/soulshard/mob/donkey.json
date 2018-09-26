@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/donkey"},
+    "criteria": {
+        "donkey": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "donkey"
+                }
+            }
+        }
+    }
+}

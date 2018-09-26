@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/drowned"},
+    "criteria": {
+        "drowned": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "drowned"
+                }
+            }
+        }
+    }
+}

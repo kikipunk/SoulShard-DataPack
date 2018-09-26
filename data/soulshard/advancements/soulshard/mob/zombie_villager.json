@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/zombie_villager"},
+    "criteria": {
+        "zombie_villager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager"
+                }
+            }
+        }
+    }
+}

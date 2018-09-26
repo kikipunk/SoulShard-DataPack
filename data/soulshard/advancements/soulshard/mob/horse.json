@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/horse"},
+    "criteria": {
+        "horse": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "horse"
+                }
+            }
+        }
+    }
+}

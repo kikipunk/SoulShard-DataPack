@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/witch"},
+    "criteria": {
+        "witch": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "witch"
+                }
+            }
+        }
+    }
+}

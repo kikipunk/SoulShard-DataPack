@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:lever",
+    "#minecraft:buttons",
+    "minecraft:repeater",
+    "minecraft:comparator",
+	"#minecraft:wooden_pressure_plates",
+	"minecraft:tripwire_hook",
+	"minecraft:stone_pressure_plate",
+	"minecraft:observer",
+	"minecraft:detector_rail"
+  ]
+}

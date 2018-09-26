@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/ocelot"},
+    "criteria": {
+        "ocelot": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "ocelot"
+                }
+            }
+        }
+    }
+}

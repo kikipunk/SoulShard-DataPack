@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/ghast"},
+    "criteria": {
+        "ghast": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "ghast"
+                }
+            }
+        }
+    }
+}
