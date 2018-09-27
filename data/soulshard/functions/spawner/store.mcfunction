@@ -4,6 +4,7 @@ execute store result score @s s_spawnertier run data get entity @e[limit=1,type=
 kill @e[limit=1,type=minecraft:item,distance=..2,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{mobshard:1b,spawnerok:1b}}}]
 data merge entity @s {Tags:["MobSpawner","Spawner"]}
 data merge block ~ ~ ~ {powered:0b,RequiredPlayerRange:16s}
+scoreboard players set @s s_number 0
 
 
 execute if entity @s[scores={s_spawnertype=1}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:bat"}}
