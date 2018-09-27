@@ -1,7 +1,17 @@
 ![SoulShard](http://mapmaking.fr/datapack/image/soulshard.png)
 
-### By Kikipunk and Daminator4113
+### Wiki
+[Check out the wiki](https://github.com/kikipunk/SoulShard-DataPack/wiki)
 
-### Help mathaym25
+### Installation 
+[Instructions](https://github.com/kikipunk/SoulShard-DataPack/wiki/Installation)
 
-### Based on SoulShard Mod by ShadwDrgn
+### Downloads
+Now on curseforge! [https://minecraft.curseforge.com/projects/mechanization-datapack](https://minecraft.curseforge.com/projects/mechanization-datapack)
+
+### Credit
+By Kikipunk and Daminator4113
+
+Help mathaym25
+
+Based on SoulShard Mod by ShadwDrgn
