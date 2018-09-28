@@ -9,7 +9,7 @@ execute if entity @s[scores={s_spawnertype=8}] run summon minecraft:dolphin ~ ~ 
 execute if entity @s[scores={s_spawnertype=9}] run summon minecraft:donkey ~ ~ ~
 execute if entity @s[scores={s_spawnertype=10}] run summon minecraft:drowned ~ ~ ~
 execute if entity @s[scores={s_spawnertype=11}] run summon minecraft:elder_guardian ~ ~ ~
-execute if entity @s[scores={s_spawnertype=12}] run summon minecraft:ender_dragon ~ ~ ~
+execute if entity @s[scores={s_spawnertype=12}] run summon minecraft:ender_dragon ~ ~ ~ {DragonPhase:0}
 execute if entity @s[scores={s_spawnertype=13}] run summon minecraft:enderman ~ ~ ~
 execute if entity @s[scores={s_spawnertype=14}] run summon minecraft:endermite ~ ~ ~
 execute if entity @s[scores={s_spawnertype=15}] run summon minecraft:evoker ~ ~ ~
@@ -57,3 +57,4 @@ execute if entity @s[scores={s_spawnertype=56}] run summon minecraft:zombie_pigm
 execute if entity @s[scores={s_spawnertype=57}] run summon minecraft:zombie_villager ~ ~ ~
 
 execute run tag @e[distance=0,type=!player] add from_spawner
+execute at @e[distance=0,type=!player] run particle minecraft:cloud ~ ~1 ~ 0.3 0.3 0.3 0.01 10 force
