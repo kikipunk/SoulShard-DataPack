@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/phantom"},
+    "criteria": {
+        "parrot": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "phantom"
+                }
+            }
+        }
+    }
+}
