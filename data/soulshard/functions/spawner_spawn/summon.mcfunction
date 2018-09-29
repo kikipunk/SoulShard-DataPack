@@ -56,5 +56,5 @@ execute if entity @s[scores={s_spawnertype=55}] run summon minecraft:zombie_hors
 execute if entity @s[scores={s_spawnertype=56}] run summon minecraft:zombie_pigman ~ ~ ~
 execute if entity @s[scores={s_spawnertype=57}] run summon minecraft:zombie_villager ~ ~ ~
 
-execute run tag @e[distance=0,type=!player] add from_spawner
+execute run tag @e[distance=..1,type=!player] add from_spawner
 execute at @e[distance=0,type=!player] run particle minecraft:cloud ~ ~1 ~ 0.3 0.3 0.3 0.01 10 force
