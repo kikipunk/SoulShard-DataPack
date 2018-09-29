@@ -5,4 +5,4 @@ execute if entity @s[advancements={soulshard:soulshard/mob/a_from_spawner=false}
 execute if entity @s[advancements={soulshard:soulshard/mob/a_from_spawner=false},nbt={SelectedItem:{id:"minecraft:golden_sword",tag:{tier:5b,soulstealer:1b}}}] run give @s minecraft:firework_star{mobtype:25s,soul:1b,display:{Name:"{\"text\":\"§7Mooshroom Soul\"}",Lore:["§7Loot on creature body"," "]}} 8
 
 advancement revoke @s only soulshard:soulshard/mob/mooshroom
-advancement revoke @s only soulshard:soulshard/mob/a_from_spawner
+advancement revoke @s[advancements={soulshard:soulshard/mob/a_from_spawner=true}] only soulshard:soulshard/mob/a_from_spawner
