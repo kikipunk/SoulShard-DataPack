@@ -7,7 +7,7 @@
 [Instructions](https://github.com/kikipunk/SoulShard-DataPack/wiki/Installation)
 
 ### Downloads
-Now on curseforge! [https://minecraft.curseforge.com/projects/mechanization-datapack](https://minecraft.curseforge.com/projects/mechanization-datapack)
+Now on curseforge! [https://minecraft.curseforge.com/projects/soulshard-datapack](https://minecraft.curseforge.com/projects/soulshard-datapack)
 
 ### Credit
 By Kikipunk and Daminator4113
