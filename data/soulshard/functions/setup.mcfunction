@@ -1,4 +1,4 @@
-tellraw @a {"text":"SoulShard DataPack successfully loaded !! §6Version 1.0!!","color":"dark_aqua","hoverEvent":{"action":"show_text","value":"Click for Credit"},"clickEvent":{"action":"run_command","value":"/function soulshard:credit"}}
+tellraw @a ["",{"text":"SoulShard DataPack successfully loaded !! ","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/function soulshard:credit"},"hoverEvent":{"action":"show_text","value":"Click for Credit"}},{"text":"Version 1.3!!","color":"gold","clickEvent":{"action":"run_command","value":"/function soulshard:credit"},"hoverEvent":{"action":"show_text","value":"Click for Credit"}}]
 
 scoreboard objectives add s_broken_spawner minecraft.mined:minecraft.spawner
 scoreboard objectives add s_spawner_ca dummy
