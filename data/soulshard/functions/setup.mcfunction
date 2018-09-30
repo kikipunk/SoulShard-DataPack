@@ -14,6 +14,7 @@ scoreboard objectives add s_spawnertier dummy
 scoreboard objectives add s_spawnerrandom dummy
 scoreboard objectives add s_time dummy
 scoreboard objectives add s_number dummy
+scoreboard objectives add s_join minecraft.custom:minecraft.leave_game
 
 scoreboard players set 10 s_spawnerrandom 10
 
