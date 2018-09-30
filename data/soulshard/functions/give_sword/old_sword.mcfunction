@@ -36,28 +36,28 @@ execute if entity @s[scores={s_sworddummy=3840..3967}] run function soulshard:gi
 execute if entity @s[scores={s_sworddummy=3968..4095}] run function soulshard:give_sword/display/32
 
 
-execute if entity @s[scores={s_sworddummy=128}] run data merge entity @s {Item:{tag:{Unbreakable:1,tier:2b,display:{Name:"{\"text\":\"§eSoulStealer Sword\"}",Lore:["§7SoulStealer II","§7Souls 128/512"," ","§7When in main hand:","§2 1.6 Attack Speed","§2 8 Attack Damage"]},Enchantments:[{id:"minecraft:unbreaking",lvl:98}],HideFlags:7,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Slot:"mainhand",Amount:7,Operation:0,UUIDMost:76770,UUIDLeast:142385}]}}}
+execute if entity @s[scores={s_sworddummy=128}] run data merge entity @s {Item:{tag:{Unbreakable:1,tier:2b,display:{Name:"{\"text\":\"§eSoulStealer Sword\"}",Lore:["§7SoulStealer II","§7Souls 128/512"," ","§7When in main hand:","§2 1.6 Attack Speed","§2 8 Attack Damage"]},HideFlags:6,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Slot:"mainhand",Amount:7,Operation:0,UUIDMost:76770,UUIDLeast:142385}]}}}
 execute if entity @s[scores={s_sworddummy=128}] run particle minecraft:flame ~ ~0.5 ~ 0.3 0.3 0.3 0.1 200
 execute if entity @s[scores={s_sworddummy=128}] run playsound minecraft:item.totem.use master @a[distance=..50] ~ ~ ~ 1.0 1.7
 execute if entity @s[scores={s_sworddummy=128}] if block ~ ~ ~ minecraft:cauldron[level=1] run setblock ~ ~ ~ minecraft:cauldron[level=0]
 execute if entity @s[scores={s_sworddummy=128}] if block ~ ~ ~ minecraft:cauldron[level=2] run setblock ~ ~ ~ minecraft:cauldron[level=1]
 execute if entity @s[scores={s_sworddummy=128}] if block ~ ~ ~ minecraft:cauldron[level=3] run setblock ~ ~ ~ minecraft:cauldron[level=2]
 
-execute if entity @s[scores={s_sworddummy=512}] run data merge entity @s {Item:{tag:{Unbreakable:1,tier:3b,display:{Name:"{\"text\":\"§eSoulStealer Sword\"}",Lore:["§7SoulStealer III","§7Souls 512/1024"," ","§7When in main hand:","§2 1.6 Attack Speed","§2 9 Attack Damage"]},Enchantments:[{id:"minecraft:unbreaking",lvl:98}],HideFlags:7,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Slot:"mainhand",Amount:8,Operation:0,UUIDMost:76770,UUIDLeast:142385}]}}}
+execute if entity @s[scores={s_sworddummy=512}] run data merge entity @s {Item:{tag:{Unbreakable:1,tier:3b,display:{Name:"{\"text\":\"§eSoulStealer Sword\"}",Lore:["§7SoulStealer III","§7Souls 512/1024"," ","§7When in main hand:","§2 1.6 Attack Speed","§2 9 Attack Damage"]},HideFlags:6,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Slot:"mainhand",Amount:8,Operation:0,UUIDMost:76770,UUIDLeast:142385}]}}}
 execute if entity @s[scores={s_sworddummy=512}] run particle minecraft:flame ~ ~0.5 ~ 0.3 0.3 0.3 0.1 200
 execute if entity @s[scores={s_sworddummy=512}] run playsound minecraft:item.totem.use master @a[distance=..50] ~ ~ ~ 1.0 1.7
 execute if entity @s[scores={s_sworddummy=512}] if block ~ ~ ~ minecraft:cauldron[level=1] run setblock ~ ~ ~ minecraft:cauldron[level=0]
 execute if entity @s[scores={s_sworddummy=512}] if block ~ ~ ~ minecraft:cauldron[level=2] run setblock ~ ~ ~ minecraft:cauldron[level=1]
 execute if entity @s[scores={s_sworddummy=512}] if block ~ ~ ~ minecraft:cauldron[level=3] run setblock ~ ~ ~ minecraft:cauldron[level=2]
 
-execute if entity @s[scores={s_sworddummy=1024}] run data merge entity @s {Item:{tag:{Unbreakable:1,tier:4b,display:{Name:"{\"text\":\"§eSoulStealer Sword\"}",Lore:["§7SoulStealer IV","§7Souls 1024/4096"," ","§7When in main hand:","§2 1.6 Attack Speed","§2 10 Attack Damage"]},Enchantments:[{id:"minecraft:unbreaking",lvl:98}],HideFlags:7,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Slot:"mainhand",Amount:9,Operation:0,UUIDMost:76770,UUIDLeast:142385}]}}}
+execute if entity @s[scores={s_sworddummy=1024}] run data merge entity @s {Item:{tag:{Unbreakable:1,tier:4b,display:{Name:"{\"text\":\"§eSoulStealer Sword\"}",Lore:["§7SoulStealer IV","§7Souls 1024/4096"," ","§7When in main hand:","§2 1.6 Attack Speed","§2 10 Attack Damage"]},HideFlags:6,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Slot:"mainhand",Amount:9,Operation:0,UUIDMost:76770,UUIDLeast:142385}]}}}
 execute if entity @s[scores={s_sworddummy=1024}] run particle minecraft:flame ~ ~0.5 ~ 0.3 0.3 0.3 0.1 200
 execute if entity @s[scores={s_sworddummy=1024}] run playsound minecraft:item.totem.use master @a[distance=..50] ~ ~ ~ 1.0 1.7
 execute if entity @s[scores={s_sworddummy=1024}] if block ~ ~ ~ minecraft:cauldron[level=1] run setblock ~ ~ ~ minecraft:cauldron[level=0]
 execute if entity @s[scores={s_sworddummy=1024}] if block ~ ~ ~ minecraft:cauldron[level=2] run setblock ~ ~ ~ minecraft:cauldron[level=1]
 execute if entity @s[scores={s_sworddummy=1024}] if block ~ ~ ~ minecraft:cauldron[level=3] run setblock ~ ~ ~ minecraft:cauldron[level=2]
 
-execute if entity @s[scores={s_sworddummy=4096}] run data merge entity @s {Item:{tag:{notmodified:0b,Unbreakable:1,tier:5b,display:{Name:"{\"text\":\"§eSoulStealer Sword\"}",Lore:["§7SoulStealer V","§7Souls 4096/4096"," ","§7When in main hand:","§2 1.6 Attack Speed","§2 15 Attack Damage"]},Enchantments:[{id:"minecraft:unbreaking",lvl:98}],HideFlags:7,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Slot:"mainhand",Amount:14,Operation:0,UUIDMost:76770,UUIDLeast:142385}]}}}
+execute if entity @s[scores={s_sworddummy=4096}] run data merge entity @s {Item:{tag:{notmodified:0b,Unbreakable:1,tier:5b,display:{Name:"{\"text\":\"§eSoulStealer Sword\"}",Lore:["§7SoulStealer V","§7Souls 4096/4096"," ","§7When in main hand:","§2 1.6 Attack Speed","§2 15 Attack Damage"]},HideFlags:6,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Slot:"mainhand",Amount:14,Operation:0,UUIDMost:76770,UUIDLeast:142385}]}}}
 execute if entity @s[scores={s_sworddummy=4096}] run particle minecraft:lava ~ ~0.5 ~ 0.3 0.3 0.3 0.01 100
 execute if entity @s[scores={s_sworddummy=4096}] run playsound minecraft:item.trident.thunder master @a[distance=..50] ~ ~ ~ 1.0 1.0
 execute if entity @s[scores={s_sworddummy=4096}] if block ~ ~ ~ minecraft:cauldron[level=1] run setblock ~ ~ ~ minecraft:cauldron[level=0]
