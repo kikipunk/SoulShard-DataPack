@@ -1,0 +1,36 @@
+{
+  "parent": "soulshard:soulshard/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_sword"
+    },
+    "title": {
+      "translate": "SoulStealer Sword"
+    },
+    "description": {
+      "translate": "Your first soulstealer sword"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "soulstealer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_sword",
+			"nbt": "{soulstealer:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "soulstealer"
+    ]
+  ]
+}

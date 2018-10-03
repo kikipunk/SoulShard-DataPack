@@ -1,6 +1,7 @@
 execute at @s store result score @s s_sworddummy run data get entity @e[type=minecraft:item,distance=..1,nbt={OnGround:1b,Item:{id:"minecraft:emerald",tag:{mobtype:0s,shard:1b}}},limit=1,sort=nearest] Item.Count
 scoreboard players remove @s s_sworddummy 1
 execute at @s store result entity @e[type=minecraft:item,distance=..1,nbt={OnGround:1b,Item:{id:"minecraft:emerald",tag:{shard:1b}}},limit=1,sort=nearest] Item.Count byte 1 run scoreboard players get @s s_sworddummy
+execute at @s if entity @s[scores={s_sworddummy=0}] run kill @e[type=minecraft:item,distance=..1,nbt={OnGround:1b,Item:{id:"minecraft:emerald",tag:{shard:1b}}},limit=1,sort=nearest]
 scoreboard players reset @s s_sworddummy
 
 execute run particle minecraft:dragon_breath ~ ~0.5 ~ 0.3 0.3 0.3 0.01 100

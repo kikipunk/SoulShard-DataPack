@@ -3,6 +3,7 @@ execute store result score @s s_shardsouldummy run data get entity @e[type=minec
 execute store result score @s s_souldummy run data get entity @e[type=minecraft:item,distance=..1,nbt={OnGround:1b,Item:{id:"minecraft:firework_star",tag:{soul:1b}}},limit=1,sort=nearest] Item.Count
 scoreboard players remove @s s_souldummy 1
 execute store result entity @e[type=minecraft:item,distance=..1,nbt={OnGround:1b,Item:{id:"minecraft:firework_star",tag:{soul:1b}}},limit=1,sort=nearest] Item.Count byte 1 run scoreboard players get @s s_souldummy
+execute at @s if entity @s[scores={s_souldummy=0}] run kill @e[type=minecraft:item,distance=..1,nbt={OnGround:1b,Item:{id:"minecraft:firework_star",tag:{soul:1b}}},limit=1,sort=nearest]
 scoreboard players reset @s s_souldummy
 
 execute if entity @s[scores={s_shardsouldummy=1}] run data merge entity @s {Item:{tag:{mobshard:1b,shard:1b,mobtype:1s,souls:1s,display:{Name:"{\"text\":\"§r§aBat Shard\"}",Lore:["§r§7Tier 0","§r§7Souls 1/128"]},HideFlags:63,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}}}

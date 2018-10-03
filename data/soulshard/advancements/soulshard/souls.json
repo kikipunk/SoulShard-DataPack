@@ -1,0 +1,36 @@
+{
+  "parent": "soulshard:soulshard/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_star"
+    },
+    "title": {
+      "translate": "Soul"
+    },
+    "description": {
+      "translate": "Your first soul"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:firework_star",
+			"nbt": "{soul:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "soul"
+    ]
+  ]
+}

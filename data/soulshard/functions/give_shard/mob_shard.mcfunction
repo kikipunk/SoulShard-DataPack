@@ -5,6 +5,7 @@ data merge entity @e[type=minecraft:item,distance=..1,nbt={OnGround:1b,Item:{id:
 execute store result score @s s_souldummy run data get entity @e[type=minecraft:item,distance=..1,nbt={OnGround:1b,Item:{id:"minecraft:firework_star",tag:{soul:1b}}},limit=1,sort=nearest] Item.Count
 scoreboard players remove @s s_souldummy 1
 execute store result entity @e[type=minecraft:item,distance=..1,nbt={OnGround:1b,Item:{id:"minecraft:firework_star",tag:{soul:1b}}},limit=1,sort=nearest] Item.Count byte 1 run scoreboard players get @s s_souldummy
+execute at @s if entity @s[scores={s_souldummy=0}] run kill @e[type=minecraft:item,distance=..1,nbt={OnGround:1b,Item:{id:"minecraft:firework_star",tag:{soul:1b}}},limit=1,sort=nearest]
 scoreboard players reset @s s_souldummy
 
 execute store result score @s s_soulcountdummy run data get entity @s Item.tag.souls

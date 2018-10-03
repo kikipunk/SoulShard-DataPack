@@ -1,6 +1,7 @@
 execute at @s store result score @s s_sharddummy run data get entity @s Item.Count
 scoreboard players remove @s s_sharddummy 1
 execute at @s store result entity @s Item.Count byte 1 run scoreboard players get @s s_sharddummy
+execute at @s if entity @s[scores={s_sharddummy=0}] run kill @s
 scoreboard players reset @s s_sharddummy
 
 execute run particle minecraft:dragon_breath ~ ~0.5 ~ 0.3 0.3 0.3 0.01 100

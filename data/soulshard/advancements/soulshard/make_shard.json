@@ -1,0 +1,36 @@
+{
+  "parent": "soulshard:soulshard/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Empty Shard"
+    },
+    "description": {
+      "translate": "Your first empty shard"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "empty_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:emerald",
+			"nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§bEmpty Shard\\\"}\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "empty_shard"
+    ]
+  ]
+}

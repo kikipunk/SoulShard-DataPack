@@ -1,0 +1,28 @@
+{
+  "parent": "soulshard:soulshard/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "Redstone Spawner"
+    },
+    "description": {
+      "translate": "You have drop a redstone dust on a spawner"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "redstone": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "redstone"
+    ]
+  ]
+}

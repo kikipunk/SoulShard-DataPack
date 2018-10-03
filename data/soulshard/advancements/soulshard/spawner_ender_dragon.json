@@ -1,0 +1,28 @@
+{
+  "parent": "soulshard:soulshard/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:dragon_egg"
+    },
+    "title": {
+      "translate": "Stupide Spawner"
+    },
+    "description": {
+      "translate": "You have drop a dragon shard on a spawner"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "dragon": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "dragon"
+    ]
+  ]
+}
