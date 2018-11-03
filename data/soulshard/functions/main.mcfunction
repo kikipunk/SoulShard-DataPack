@@ -1,15 +1,15 @@
 #### Main fonction execute every tick ####
-execute if score tick100 s_time = tier5 s_time run function soulshard:spawner_spawn/tier5
-execute if score tick200 s_time = tier4 s_time run function soulshard:spawner_spawn/tier4
-execute if score tick300 s_time = tier3 s_time run function soulshard:spawner_spawn/tier3
-execute if score tick400 s_time = tier2 s_time run function soulshard:spawner_spawn/tier2
-execute if score tick500 s_time = tier1 s_time run function soulshard:spawner_spawn/tier1
+execute if score tick100 s_time >= tier5 s_time run function soulshard:spawner_spawn/tier5
+execute if score tick200 s_time >= tier4 s_time run function soulshard:spawner_spawn/tier4
+execute if score tick300 s_time >= tier3 s_time run function soulshard:spawner_spawn/tier3
+execute if score tick400 s_time >= tier2 s_time run function soulshard:spawner_spawn/tier2
+execute if score tick500 s_time >= tier1 s_time run function soulshard:spawner_spawn/tier1
 
-execute if score tick100 s_time = tier5 s_time run scoreboard players set tick100 s_time 0
-execute if score tick200 s_time = tier4 s_time run scoreboard players set tick200 s_time 0
-execute if score tick300 s_time = tier3 s_time run scoreboard players set tick300 s_time 0
-execute if score tick400 s_time = tier2 s_time run scoreboard players set tick400 s_time 0
-execute if score tick500 s_time = tier1 s_time run scoreboard players set tick500 s_time 0
+execute if score tick100 s_time >= tier5 s_time run scoreboard players set tick100 s_time 0
+execute if score tick200 s_time >= tier4 s_time run scoreboard players set tick200 s_time 0
+execute if score tick300 s_time >= tier3 s_time run scoreboard players set tick300 s_time 0
+execute if score tick400 s_time >= tier2 s_time run scoreboard players set tick400 s_time 0
+execute if score tick500 s_time >= tier1 s_time run scoreboard players set tick500 s_time 0
 
 scoreboard players add tick100 s_time 1
 scoreboard players add tick200 s_time 1
