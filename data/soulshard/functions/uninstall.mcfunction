@@ -14,5 +14,5 @@ scoreboard objectives remove s_time
 scoreboard objectives remove s_number
 scoreboard objectives remove s_join
 
-datapack disable "file/SoulShard"
-datapack disable "file/SoulShard.zip"
+datapack disable "file/SoulShard-paper"
+datapack disable "file/SoulShard-paper.zip"
