@@ -7,7 +7,7 @@
       "translate": "Soul Shard"
     },
     "description": {
-      "translate": "Euh... j'ai pas encore d'idée"
+      "translate": "Your first spawner"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,7 +16,7 @@
     "background": "minecraft:textures/block/dragon_egg.png"
   },
   "criteria": {
-    "empty_egg": {
+    "spawner": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -30,7 +30,7 @@
   },
   "requirements": [
     [
-      "empty_egg"
+      "spawner"
     ]
   ]
 }

@@ -1,0 +1,37 @@
+{
+  "parent": "soulshard:soulshard/make_sword",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_sword",
+	  "nbt": "{Enchantments:[{lvl:1,id:\"minecraft:unbreaking\"}]}"
+    },
+    "title": {
+      "translate": "SoulStealer Sword Tier 5"
+    },
+    "description": {
+      "translate": "You have the biggest"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "soulstealer_t5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_sword",
+			"nbt": "{soulstealer:1b,tier:5b}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "soulstealer_t5"
+    ]
+  ]
+}

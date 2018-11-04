@@ -1,0 +1,37 @@
+{
+  "parent": "soulshard:soulshard/make_shard",
+  "display": {
+    "icon": {
+		"item": "minecraft:emerald",
+  	  	"nbt": "{Enchantments:[{lvl:1,id:\"minecraft:unbreaking\"}]}"
+    },
+    "title": {
+      "translate": "Mob Shard"
+    },
+    "description": {
+      "translate": "Your first mob shard"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "mob_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:emerald",
+			"nbt": "{mobshard:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mob_shard"
+    ]
+  ]
+}
