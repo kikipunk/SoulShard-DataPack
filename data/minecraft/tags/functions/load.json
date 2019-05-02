@@ -1,6 +1,7 @@
 {
 	"replace": false,
 	"values": [
-		"soulshard:setup"
+		"soulshard:setup",
+		"soulshard:config"
 	]
 }

@@ -59,7 +59,7 @@ execute if entity @s[scores={s_soulcountdummy=1024}] if block ~ ~ ~ minecraft:ca
 execute if entity @s[scores={s_soulcountdummy=1024}] if block ~ ~ ~ minecraft:cauldron[level=2] run setblock ~ ~ ~ minecraft:cauldron[level=1]
 execute if entity @s[scores={s_soulcountdummy=1024}] if block ~ ~ ~ minecraft:cauldron[level=3] run setblock ~ ~ ~ minecraft:cauldron[level=2]
 
-execute if entity @s[scores={s_soulcountdummy=2048}] run data merge entity @s {Item:{tag:{tier:5b,spawnerok:1b,display:{Lore:['{"text":"§r§7Tier 5"}','{"text":"§r§7Souls 2048/2048"}']}}}}
+execute if entity @s[scores={s_soulcountdummy=2048}] run data merge entity @s {Item:{tag:{tier:5b,spawnerok:1b,display:{Lore:["§r§7Tier 5","§r§7Souls 2048/2048"]}}}}
 execute if entity @s[scores={s_soulcountdummy=2048}] run particle minecraft:lava ~ ~0.5 ~ 0.3 0.3 0.3 0.01 100
 execute if entity @s[scores={s_soulcountdummy=2048}] run playsound minecraft:item.trident.thunder master @a[distance=..50] ~ ~ ~ 1.0 1.0
 execute if entity @s[scores={s_soulcountdummy=2048}] if block ~ ~ ~ minecraft:cauldron[level=1] run setblock ~ ~ ~ minecraft:cauldron[level=0]

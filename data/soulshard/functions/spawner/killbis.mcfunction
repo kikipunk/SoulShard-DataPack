@@ -72,10 +72,3 @@ execute if entity @s[scores={s_shardsouldummy=54}] run data merge entity @s {Ite
 execute if entity @s[scores={s_shardsouldummy=55}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aZombie Horse Shard\"}"}}}}
 execute if entity @s[scores={s_shardsouldummy=56}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aZombie Pigman Shard\"}"}}}}
 execute if entity @s[scores={s_shardsouldummy=57}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aZombie Villager Shard\"}"}}}}
-execute if entity @s[scores={s_shardsouldummy=58}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aCat Shard\"}"}}}}
-execute if entity @s[scores={s_shardsouldummy=59}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aTrader Llama Shard\"}"}}}}
-execute if entity @s[scores={s_shardsouldummy=60}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aFox Shard\"}"}}}}
-execute if entity @s[scores={s_shardsouldummy=61}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aPanda Shard\"}"}}}}
-execute if entity @s[scores={s_shardsouldummy=62}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aRavager Shard\"}"}}}}
-execute if entity @s[scores={s_shardsouldummy=63}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aPillager Shard\"}"}}}}
-execute if entity @s[scores={s_shardsouldummy=64}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aWandering Trader Shard\"}"}}}}
