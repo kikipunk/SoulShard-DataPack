@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-tellraw @a ["",{"text":"SoulShard DataPack successfully loaded !! ","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/function soulshard:credit"},"hoverEvent":{"action":"show_text","value":"Click for Credit"}},{"text":"Version 1.4!!","color":"gold","clickEvent":{"action":"run_command","value":"/function soulshard:credit"},"hoverEvent":{"action":"show_text","value":"Click for Credit"}}]
-tellraw @a {"text":"Click for check if SoulShard is up to date","color":"gold","hoverEvent":{"action":"show_text","value":"Click for check"},"clickEvent":{"action":"open_url","value":"http://mapmaking.fr/datapack/soulshard/1.4.html"}}
-=======
 tellraw @a ["",{"text":"SoulShard DataPack successfully loaded !! ","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/function soulshard:credit"},"hoverEvent":{"action":"show_text","value":"Click for Credit"}},{"text":"Version 2.0!!","color":"gold","clickEvent":{"action":"run_command","value":"/function soulshard:credit"},"hoverEvent":{"action":"show_text","value":"Click for Credit"}}]
->>>>>>> paper
 
 scoreboard objectives add s_broken_spawner minecraft.mined:minecraft.spawner
 scoreboard objectives add s_spawner_ca dummy
