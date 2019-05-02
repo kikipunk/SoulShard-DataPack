@@ -17,7 +17,7 @@ scoreboard players add tick300 s_time 1
 scoreboard players add tick400 s_time 1
 scoreboard players add tick500 s_time 1
 
-give @a[scores={s_broken_spawner=1..}] minecraft:spawner{display:{Name:"{\"text\":\"§r§bEmpty Spawner\"}",Lore:["Drop a shard on the spawner"]}} 1
+give @a[scores={s_broken_spawner=1..}] minecraft:spawner{display:{Name:"{\"text\":\"§r§bEmpty Spawner\"}",Lore:['{"text":"Drop a shard on the spawner"}']}} 1
 execute at @a[scores={s_broken_spawner=1..}] run kill @e[type=minecraft:experience_orb,distance=..5]
 scoreboard players reset @a[scores={s_broken_spawner=1..}] s_broken_spawner
 
@@ -31,7 +31,12 @@ execute as @e[type=minecraft:armor_stand,tag=Spawner,tag=!MobSpawner] at @s if e
 
 execute as @e[type=minecraft:armor_stand,tag=MobSpawner,tag=redstone] at @s run function soulshard:spawner/powered
 execute as @e[type=minecraft:armor_stand,tag=MobSpawner,tag=redstone] at @s if entity @a[distance=..10] run particle minecraft:dust 1 0 0 0.75 ~ ~0.5 ~ 0.3 0.3 0.3 1 2 force
+execute as @e[type=minecraft:armor_stand,tag=MobSpawner,tag=!redstone] at @s if entity @e[limit=1,tag=!exit_spawner,type=minecraft:item,distance=..2,nbt={Item:{id:"minecraft:redstone",Count:1b}}] if entity @p[advancements={soulshard:soulshard/spawner_redstone=false}] run advancement grant @p only soulshard:soulshard/spawner_redstone
 execute as @e[type=minecraft:armor_stand,tag=MobSpawner,tag=!redstone] at @s if entity @e[limit=1,tag=!exit_spawner,type=minecraft:item,distance=..2,nbt={Item:{id:"minecraft:redstone",Count:1b}}] run function soulshard:spawner/store_redstone
 
+<<<<<<< HEAD
 execute as @a[scores={s_join=1..}] run tellraw @s {"text":"Click for check if SoulShard is up to date","color":"gold","hoverEvent":{"action":"show_text","value":"Click for check"},"clickEvent":{"action":"open_url","value":"http://mapmaking.fr/datapack/soulshard/1.4.html"}}
+=======
+execute as @a[scores={s_join=1..}] run function soulshard:join
+>>>>>>> paper
 scoreboard players reset @a[scores={s_join=1..}] s_join
