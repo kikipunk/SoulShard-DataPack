@@ -34,5 +34,9 @@ execute as @e[type=minecraft:armor_stand,tag=MobSpawner,tag=redstone] at @s if e
 execute as @e[type=minecraft:armor_stand,tag=MobSpawner,tag=!redstone] at @s if entity @e[limit=1,tag=!exit_spawner,type=minecraft:item,distance=..2,nbt={Item:{id:"minecraft:redstone",Count:1b}}] if entity @p[advancements={soulshard:soulshard/spawner_redstone=false}] run advancement grant @p only soulshard:soulshard/spawner_redstone
 execute as @e[type=minecraft:armor_stand,tag=MobSpawner,tag=!redstone] at @s if entity @e[limit=1,tag=!exit_spawner,type=minecraft:item,distance=..2,nbt={Item:{id:"minecraft:redstone",Count:1b}}] run function soulshard:spawner/store_redstone
 
+<<<<<<< HEAD
+execute as @a[scores={s_join=1..}] run tellraw @s {"text":"Click for check if SoulShard is up to date","color":"gold","hoverEvent":{"action":"show_text","value":"Click for check"},"clickEvent":{"action":"open_url","value":"http://mapmaking.fr/datapack/soulshard/1.4.html"}}
+=======
 execute as @a[scores={s_join=1..}] run function soulshard:join
+>>>>>>> paper
 scoreboard players reset @a[scores={s_join=1..}] s_join
