@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/pillager"},
+    "criteria": {
+        "pillager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "pillager"
+                }
+            }
+        }
+    }
+}

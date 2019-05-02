@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/wandering_trader"},
+    "criteria": {
+        "wandering_trader": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "wandering_trader"
+                }
+            }
+        }
+    }
+}

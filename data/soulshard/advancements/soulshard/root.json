@@ -22,7 +22,7 @@
         "items": [
           {
             "item": "minecraft:spawner",
-			"nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§bEmpty Spawner\\\"}\",Lore:[\"Drop a shard on the spawner\"]}}"
+			"nbt": "{display:{Name:\"{\\\"text\\\":\\\"§r§bEmpty Spawner\\\"}\"}}"
           }
         ]
       }

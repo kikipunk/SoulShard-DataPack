@@ -73,7 +73,18 @@
 		"a_zombie": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:54s}"}]}},
 		"a_zombie_horse": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:55s}"}]}},
 		"a_zombie_pigman": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:56s}"}]}},
+<<<<<<< HEAD
 		"a_zombie_villager": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:57s}"}]}}
+=======
+		"a_zombie_villager": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:57s}"}]}},
+		"a_cat": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:58s}"}]}},
+		"a_trader_llama": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:59s}"}]}},
+		"a_fox": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:60s}"}]}},
+		"a_panda": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:61s}"}]}},
+		"a_ravager": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:62s}"}]}},
+		"a_pillager": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:63s}"}]}},
+		"a_wandering_trader": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:64s}"}]}}
+>>>>>>> paper
   },
   "requirements": [
       ["a_bat"],
@@ -132,6 +143,17 @@
 	  ["a_zombie"],
 	  ["a_zombie_horse"],
 	  ["a_zombie_pigman"],
+<<<<<<< HEAD
 	  ["a_zombie_villager"]
+=======
+	  ["a_zombie_villager"],
+	  ["a_cat"],
+	  ["a_trader_llama"],
+	  ["a_fox"],
+	  ["a_panda"],
+	  ["a_ravager"],
+	  ["a_pillager"],
+	  ["a_wandering_trader"]
+>>>>>>> paper
   ]
 }
