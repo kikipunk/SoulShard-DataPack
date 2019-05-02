@@ -19,6 +19,7 @@ execute if entity @s[scores={s_spawnertype=9}] run data merge block ~ ~ ~ {Spawn
 execute if entity @s[scores={s_spawnertype=10}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:drowned"}}
 execute if entity @s[scores={s_spawnertype=11}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:elder_guardian"}}
 execute if entity @s[scores={s_spawnertype=12}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:ender_dragon"}}
+execute if entity @s[scores={s_spawnertype=12}] if entity @p[advancements={soulshard:soulshard/spawner_ender_dragon=false}] run advancement grant @p only soulshard:soulshard/spawner_ender_dragon
 execute if entity @s[scores={s_spawnertype=13}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:enderman"}}
 execute if entity @s[scores={s_spawnertype=14}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:endermite"}}
 execute if entity @s[scores={s_spawnertype=15}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:evoker"}}
@@ -64,3 +65,10 @@ execute if entity @s[scores={s_spawnertype=54}] run data merge block ~ ~ ~ {Spaw
 execute if entity @s[scores={s_spawnertype=55}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:zombie_horse"}}
 execute if entity @s[scores={s_spawnertype=56}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:zombie_pigman"}}
 execute if entity @s[scores={s_spawnertype=57}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:zombie_villager"}}
+execute if entity @s[scores={s_spawnertype=58}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:cat"}}
+execute if entity @s[scores={s_spawnertype=59}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:trader_llama"}}
+execute if entity @s[scores={s_spawnertype=60}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:fox"}}
+execute if entity @s[scores={s_spawnertype=61}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:panda"}}
+execute if entity @s[scores={s_spawnertype=62}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:ravager"}}
+execute if entity @s[scores={s_spawnertype=63}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:pillager"}}
+execute if entity @s[scores={s_spawnertype=64}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:wandering_trader"}}

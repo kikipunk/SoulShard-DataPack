@@ -1,5 +1,4 @@
-tellraw @a ["",{"text":"SoulShard DataPack successfully loaded !! ","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/function soulshard:credit"},"hoverEvent":{"action":"show_text","value":"Click for Credit"}},{"text":"Version 1.2 Paper!!","color":"gold","clickEvent":{"action":"run_command","value":"/function soulshard:credit"},"hoverEvent":{"action":"show_text","value":"Click for Credit"}}]
-tellraw @a {"text":"Click for check if SoulShard is up to date","color":"gold","hoverEvent":{"action":"show_text","value":"Click for check"},"clickEvent":{"action":"open_url","value":"http://mapmaking.fr/datapack/soulshard/1.3.html"}}
+tellraw @a ["",{"text":"SoulShard DataPack successfully loaded !! ","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/function soulshard:credit"},"hoverEvent":{"action":"show_text","value":"Click for Credit"}},{"text":"Version 2.0!!","color":"gold","clickEvent":{"action":"run_command","value":"/function soulshard:credit"},"hoverEvent":{"action":"show_text","value":"Click for Credit"}}]
 
 scoreboard objectives add s_broken_spawner minecraft.mined:minecraft.spawner
 scoreboard objectives add s_spawner_ca dummy
@@ -19,4 +18,5 @@ scoreboard objectives add s_join minecraft.custom:minecraft.leave_game
 
 scoreboard players set 10 s_spawnerrandom 10
 
-advancement revoke @a only soulshard:soulshard/trigger/place_spawner
+execute as @a run function soulshard:join
+function soulshard:config

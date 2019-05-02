@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/trader_llama"},
+    "criteria": {
+        "trader_llama": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "trader_llama"
+                }
+            }
+        }
+    }
+}
