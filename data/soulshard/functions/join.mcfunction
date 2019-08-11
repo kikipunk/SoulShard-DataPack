@@ -25,7 +25,8 @@ advancement revoke @s only soulshard:soulshard/mob/illusioner
 advancement revoke @s only soulshard:soulshard/mob/iron_golem
 advancement revoke @s only soulshard:soulshard/mob/llama
 advancement revoke @s only soulshard:soulshard/mob/magma_cube
-advancement revoke @s only soulshard:soulshard/mob/mooshroom
+advancement revoke @s only soulshard:soulshard/mob/mooshroomred
+advancement revoke @s only soulshard:soulshard/mob/mooshroombrown
 advancement revoke @s only soulshard:soulshard/mob/mule
 advancement revoke @s only soulshard:soulshard/mob/ocelot
 advancement revoke @s only soulshard:soulshard/mob/panda
