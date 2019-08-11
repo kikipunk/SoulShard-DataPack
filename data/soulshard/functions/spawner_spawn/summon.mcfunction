@@ -22,7 +22,8 @@ execute if entity @s[scores={s_spawnertype=21}] run summon minecraft:illusioner 
 execute if entity @s[scores={s_spawnertype=22}] run summon minecraft:iron_golem ~ ~ ~
 execute if entity @s[scores={s_spawnertype=23}] run summon minecraft:llama ~ ~ ~
 execute if entity @s[scores={s_spawnertype=24}] run summon minecraft:magma_cube ~ ~ ~
-execute if entity @s[scores={s_spawnertype=25}] run summon minecraft:mooshroom ~ ~ ~
+execute if entity @s[scores={s_spawnertype=25}] run summon minecraft:mooshroom ~ ~ ~ {Type:"red"}
+execute if entity @s[scores={s_spawnertype=250}] run summon minecraft:mooshroom ~ ~ ~ {Type:"brown"}
 execute if entity @s[scores={s_spawnertype=26}] run summon minecraft:mule ~ ~ ~
 execute if entity @s[scores={s_spawnertype=27}] run summon minecraft:ocelot ~ ~ ~
 execute if entity @s[scores={s_spawnertype=28}] run summon minecraft:parrot ~ ~ ~
