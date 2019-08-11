@@ -1,0 +1,14 @@
+{
+	"rewards": {"function":"soulshard:mob/mooshroomred"},
+    "criteria": {
+        "mooshroom": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "mooshroom",
+					"nbt": "{Type:'red'}"
+                }
+            }
+        }
+    }
+}
