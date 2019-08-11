@@ -32,7 +32,8 @@ execute if entity @s[scores={s_spawnertype=21}] run data merge block ~ ~ ~ {Spaw
 execute if entity @s[scores={s_spawnertype=22}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:iron_golem"}}
 execute if entity @s[scores={s_spawnertype=23}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:llama"}}
 execute if entity @s[scores={s_spawnertype=24}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:magma_cube"}}
-execute if entity @s[scores={s_spawnertype=25}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:mooshroom"}}
+execute if entity @s[scores={s_spawnertype=25}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:mooshroom",Type:"red"}}
+execute if entity @s[scores={s_spawnertype=250}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:mooshroom",Type:"brown"}}
 execute if entity @s[scores={s_spawnertype=26}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:mule"}}
 execute if entity @s[scores={s_spawnertype=27}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:ocelot"}}
 execute if entity @s[scores={s_spawnertype=28}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:parrot"}}

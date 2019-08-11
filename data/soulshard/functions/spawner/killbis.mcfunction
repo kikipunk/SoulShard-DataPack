@@ -39,7 +39,8 @@ execute if entity @s[scores={s_shardsouldummy=21}] run data merge entity @s {Ite
 execute if entity @s[scores={s_shardsouldummy=22}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aIron Golem Shard\"}"}}}}
 execute if entity @s[scores={s_shardsouldummy=23}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aLlama Shard\"}"}}}}
 execute if entity @s[scores={s_shardsouldummy=24}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aMagma Cube Shard\"}"}}}}
-execute if entity @s[scores={s_shardsouldummy=25}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aMooshroom Shard\"}"}}}}
+execute if entity @s[scores={s_shardsouldummy=25}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aRed Mooshroom Shard\"}"}}}}
+execute if entity @s[scores={s_shardsouldummy=250}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aBrown Mooshroom Shard\"}"}}}}
 execute if entity @s[scores={s_shardsouldummy=26}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aMule Shard\"}"}}}}
 execute if entity @s[scores={s_shardsouldummy=27}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aOcelot Shard\"}"}}}}
 execute if entity @s[scores={s_shardsouldummy=28}] run data merge entity @s {Item:{tag:{spawnerok:1b,display:{Name:"{\"text\":\"§r§aParrot Shard\"}"}}}}
