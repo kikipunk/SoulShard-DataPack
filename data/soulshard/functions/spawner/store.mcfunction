@@ -64,7 +64,7 @@ execute if entity @s[scores={s_spawnertype=52}] run data merge block ~ ~ ~ {Spaw
 execute if entity @s[scores={s_spawnertype=53}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:wolf"}}
 execute if entity @s[scores={s_spawnertype=54}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:zombie"}}
 execute if entity @s[scores={s_spawnertype=55}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:zombie_horse"}}
-execute if entity @s[scores={s_spawnertype=56}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:zombie_pigman"}}
+execute if entity @s[scores={s_spawnertype=56}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:zombified_piglin"}}
 execute if entity @s[scores={s_spawnertype=57}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:zombie_villager"}}
 execute if entity @s[scores={s_spawnertype=58}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:cat"}}
 execute if entity @s[scores={s_spawnertype=59}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:trader_llama"}}
@@ -73,3 +73,8 @@ execute if entity @s[scores={s_spawnertype=61}] run data merge block ~ ~ ~ {Spaw
 execute if entity @s[scores={s_spawnertype=62}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:ravager"}}
 execute if entity @s[scores={s_spawnertype=63}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:pillager"}}
 execute if entity @s[scores={s_spawnertype=64}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:wandering_trader"}}
+execute if entity @s[scores={s_spawnertype=65}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:bee"}}
+execute if entity @s[scores={s_spawnertype=66}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:strider"}}
+execute if entity @s[scores={s_spawnertype=67}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:hoglin"}}
+execute if entity @s[scores={s_spawnertype=68}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:piglin"}}
+execute if entity @s[scores={s_spawnertype=69}] run data merge block ~ ~ ~ {SpawnData:{id:"minecraft:zoglin"}}

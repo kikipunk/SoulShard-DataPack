@@ -73,7 +73,7 @@
 		"a_wolf": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:53s}"}]}},
 		"a_zombie": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:54s}"}]}},
 		"a_zombie_horse": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:55s}"}]}},
-		"a_zombie_pigman": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:56s}"}]}},
+		"a_zombified_piglin": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:56s}"}]}},
 		"a_zombie_villager": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:57s}"}]}},
 		"a_cat": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:58s}"}]}},
 		"a_trader_llama": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:59s}"}]}},
@@ -81,7 +81,13 @@
 		"a_panda": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:61s}"}]}},
 		"a_ravager": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:62s}"}]}},
 		"a_pillager": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:63s}"}]}},
-		"a_wandering_trader": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:64s}"}]}}
+		"a_wandering_trader": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:64s}"}]}},
+		"a_bee": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:65s}"}]}},
+		"a_strider": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:66s}"}]}},
+		"a_hoglin": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:67s}"}]}},
+		"a_piglin": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:68s}"}]}},
+		"a_zoglin": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"item":"minecraft:firework_star","nbt":"{mobtype:69s}"}]}}
+		
   },
   "requirements": [
       ["a_bat"],
@@ -140,7 +146,7 @@
 	  ["a_wolf"],
 	  ["a_zombie"],
 	  ["a_zombie_horse"],
-	  ["a_zombie_pigman"],
+	  ["a_zombified_piglin"],
 	  ["a_zombie_villager"],
 	  ["a_cat"],
 	  ["a_trader_llama"],
@@ -148,6 +154,11 @@
 	  ["a_panda"],
 	  ["a_ravager"],
 	  ["a_pillager"],
-	  ["a_wandering_trader"]
+	  ["a_wandering_trader"],
+	  ["a_bee"],
+	  ["a_strider"],
+	  ["a_hoglin"],
+	  ["a_piglin"],
+	  ["a_zoglin"]
   ]
 }

@@ -71,6 +71,13 @@ execute if entity @s[scores={s_shardsouldummy=62}] run data merge entity @s {Ite
 execute if entity @s[scores={s_shardsouldummy=63}] run data merge entity @s {Item:{tag:{mobshard:1b,shard:1b,mobtype:63s,souls:1s,display:{Name:"{\"text\":\"§r§aPillager Shard\"}",Lore:['{"text":"§r§7Tier 0"}','{"text":"§r§7Souls 1/128"}']},HideFlags:63,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}}}
 execute if entity @s[scores={s_shardsouldummy=64}] run data merge entity @s {Item:{tag:{mobshard:1b,shard:1b,mobtype:64s,souls:1s,display:{Name:"{\"text\":\"§r§aWandering Trader Shard\"}",Lore:['{"text":"§r§7Tier 0"}','{"text":"§r§7Souls 1/128"}']},HideFlags:63,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}}}
 
+execute if entity @s[scores={s_shardsouldummy=65}] run data merge entity @s {Item:{tag:{mobshard:1b,shard:1b,mobtype:65s,souls:1s,display:{Name:"{\"text\":\"§r§aBee Shard\"}",Lore:['{"text":"§r§7Tier 0"}','{"text":"§r§7Souls 1/128"}']},HideFlags:63,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}}}
+
+execute if entity @s[scores={s_shardsouldummy=66}] run data merge entity @s {Item:{tag:{mobshard:1b,shard:1b,mobtype:66s,souls:1s,display:{Name:"{\"text\":\"§r§aStrider Shard\"}",Lore:['{"text":"§r§7Tier 0"}','{"text":"§r§7Souls 1/128"}']},HideFlags:63,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}}}
+execute if entity @s[scores={s_shardsouldummy=67}] run data merge entity @s {Item:{tag:{mobshard:1b,shard:1b,mobtype:67s,souls:1s,display:{Name:"{\"text\":\"§r§aHoglin Shard\"}",Lore:['{"text":"§r§7Tier 0"}','{"text":"§r§7Souls 1/128"}']},HideFlags:63,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}}}
+execute if entity @s[scores={s_shardsouldummy=68}] run data merge entity @s {Item:{tag:{mobshard:1b,shard:1b,mobtype:68s,souls:1s,display:{Name:"{\"text\":\"§r§aPiglin Shard\"}",Lore:['{"text":"§r§7Tier 0"}','{"text":"§r§7Souls 1/128"}']},HideFlags:63,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}}}
+execute if entity @s[scores={s_shardsouldummy=69}] run data merge entity @s {Item:{tag:{mobshard:1b,shard:1b,mobtype:69s,souls:1s,display:{Name:"{\"text\":\"§r§aZoglin Shard\"}",Lore:['{"text":"§r§7Tier 0"}','{"text":"§r§7Souls 1/128"}']},HideFlags:63,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}}}
+
 
 
 scoreboard players reset @s s_shardsouldummy

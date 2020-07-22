@@ -54,7 +54,7 @@ execute if entity @s[scores={s_spawnertype=52}] run summon minecraft:wither_skel
 execute if entity @s[scores={s_spawnertype=53}] run summon minecraft:wolf ~ ~ ~
 execute if entity @s[scores={s_spawnertype=54}] run summon minecraft:zombie ~ ~ ~
 execute if entity @s[scores={s_spawnertype=55}] run summon minecraft:zombie_horse ~ ~ ~
-execute if entity @s[scores={s_spawnertype=56}] run summon minecraft:zombie_pigman ~ ~ ~
+execute if entity @s[scores={s_spawnertype=56}] run summon minecraft:zombified_piglin ~ ~ ~
 execute if entity @s[scores={s_spawnertype=57}] run summon minecraft:zombie_villager ~ ~ ~
 execute if entity @s[scores={s_spawnertype=58}] run summon minecraft:cat ~ ~ ~
 execute if entity @s[scores={s_spawnertype=59}] run summon minecraft:trader_llama ~ ~ ~
@@ -63,6 +63,12 @@ execute if entity @s[scores={s_spawnertype=61}] run summon minecraft:panda ~ ~ ~
 execute if entity @s[scores={s_spawnertype=62}] run summon minecraft:ravager ~ ~ ~
 execute if entity @s[scores={s_spawnertype=63}] run summon minecraft:pillager ~ ~ ~
 execute if entity @s[scores={s_spawnertype=64}] run summon minecraft:wandering_trader ~ ~ ~
+execute if entity @s[scores={s_spawnertype=65}] run summon minecraft:bee ~ ~ ~
+execute if entity @s[scores={s_spawnertype=66}] run summon minecraft:strider ~ ~ ~
+execute if entity @s[scores={s_spawnertype=67}] run summon minecraft:hoglin ~ ~ ~
+execute if entity @s[scores={s_spawnertype=68}] run summon minecraft:piglin ~ ~ ~
+execute if entity @s[scores={s_spawnertype=69}] run summon minecraft:zoglin ~ ~ ~
+
 
 execute run tag @e[distance=..1,type=!player] add from_spawner
 execute at @e[distance=0,type=!player] run particle minecraft:cloud ~ ~1 ~ 0.3 0.3 0.3 0.01 10 force

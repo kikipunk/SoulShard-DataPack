@@ -62,5 +62,22 @@ advancement revoke @s only soulshard:soulshard/mob/wither_skeleton
 advancement revoke @s only soulshard:soulshard/mob/wolf
 advancement revoke @s only soulshard:soulshard/mob/zombie
 advancement revoke @s only soulshard:soulshard/mob/zombie_horse
-advancement revoke @s only soulshard:soulshard/mob/zombie_pigman
+advancement revoke @s only soulshard:soulshard/mob/zombified_piglin
 advancement revoke @s only soulshard:soulshard/mob/zombie_villager
+advancement revoke @s only soulshard:soulshard/mob/cat
+advancement revoke @s only soulshard:soulshard/mob/trader_llama
+advancement revoke @s only soulshard:soulshard/mob/fox
+advancement revoke @s only soulshard:soulshard/mob/panda
+advancement revoke @s only soulshard:soulshard/mob/ravager
+advancement revoke @s only soulshard:soulshard/mob/pillager
+advancement revoke @s only soulshard:soulshard/mob/wandering_trader
+advancement revoke @s only soulshard:soulshard/mob/bee
+advancement revoke @s only soulshard:soulshard/mob/strider
+advancement revoke @s only soulshard:soulshard/mob/hoglin
+advancement revoke @s only soulshard:soulshard/mob/piglin
+advancement revoke @s only soulshard:soulshard/mob/zoglin
+
+
+
+
+

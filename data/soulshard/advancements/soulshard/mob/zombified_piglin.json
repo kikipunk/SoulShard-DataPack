@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"soulshard:mob/zombified_piglin"},
+    "criteria": {
+        "zombified_piglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombified_piglin"
+                }
+            }
+        }
+    }
+}
